@@ -1,2 +1,1 @@
-# MIREAVR
-ebuchka
+# university
