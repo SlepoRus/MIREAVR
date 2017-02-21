@@ -1,6 +1,7 @@
-# Visual Studio 2015 user specific files 
-.vs/ 
+# Visual Studio 2015 user specific files
+.vs/
 
 source/bootstrap/*
 source/bootstrap-3.3.7-dist/*
 source/img/multimedia.svg
+source/node_modules/*
