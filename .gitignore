@@ -4,3 +4,4 @@
 source/bootstrap/*
 source/bootstrap-3.3.7-dist/*
 source/img/multimedia.svg
+node_modules/*
