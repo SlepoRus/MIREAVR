@@ -53,7 +53,7 @@ body {
 }
 
 .menu {
-	font-size: 16px;
+	font-size: 14px;
 	color: #fff;
 	width:600px;
 	height:70px;
@@ -67,12 +67,15 @@ ul {
 .menu li {
 	display: inline-block;
 	padding: 24px 20px 20px 0px;
-	font-family: 'HelveticaNeueCyr Thin';
+	font-family: 'HelveticaNeueCyr';
 	letter-spacing: 1px;
-	color:#eee;
+	color:#fff;
 }
 
-.menu li>a {color:#eee;}
+.menu li>a {
+	color:#fff;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
 .account {
 	font-size: 16px;
@@ -419,4 +422,18 @@ left: 50px;
 }
 .right-ram {
 	background-color:green;
+}
+.list-who li {
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:20px;
+}
+.quickQ {
+	border-left:1px solid grey;
+	font-size:16px;
+	padding:30px;
+}
+.menu-nav {
+	display:inline-block;
+	margin-top:px;
 }
