@@ -410,13 +410,7 @@ left: 50px;
 }
 .ram {
 }
-.cc-frame {
-		background: white; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(white, #6f5499 ,white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(white, #6f5499 ,white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(white, #6f5499,white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white, #6f5499 ,white); /* Standard syntax */
-}
+
 .left-ram {
 	background-color:red;
 }
@@ -436,4 +430,61 @@ left: 50px;
 .menu-nav {
 	display:inline-block;
 	margin-top:px;
+}
+.cc-frame {
+	text-align:center;
+	margin:auto;
+}
+.left-block {
+	width:600px;
+	height:300px;
+	margin:80px;
+	display:inline-block;
+}
+.right-block {
+	width:400px;
+	margin:80px;
+	height:400px;
+	display:inline-block;
+}
+.check-text {
+	position:relative;
+}
+.left-block-bot {
+	width:600px;
+	height:300px;
+	background-color:#f9f9f9;
+	border-radius:5px;
+	border:1px solid #d8dce9;
+}
+.right-block-bot {
+	width:400px;
+	height:400px;
+	background-color:#f9f9f9;
+	border-radius:5px;
+	border:1px solid #d8dce9;
+}
+.search-2 {
+	display:inline-block;
+	width:100px;
+}
+.search-1 {
+	display:inline-block;
+	width:400px;
+}
+.search-index {
+	height:80px;
+	text-align:center;
+}
+.nav-menu li:hover {
+	 background-color:#613aa0;
+	 border-left:1px solid grey;
+	 border-right:1px solid grey;
+}
+.nav-menu li {
+	padding-top:29px;
+	padding-left:20px;
+	transition:1s ease;
+	border-left:1px solid #563e7d;
+	border-right:1px solid #563e7d;
 }
