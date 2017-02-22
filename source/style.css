@@ -1,21 +1,21 @@
 @font-face {
 	font-family: 'HelveticaNeueCyr';
-	src: local('HelveticaNeueCyr Thin'), url('HelveticaNeueCyr-Thin.woff2') format('woff2');
+	src: url('fonts/Helvetica-Neue-Cyr/HelveticaNeueCyr-Thin.otf');
 }
 
 @font-face {
 	font-family: 'HelveticaNeueCyr';
-	src: local('HelveticaNeueCyr Medium'), url('HelveticaNeueCyr-Medium.woff2') format('woff2');
+	src: url('fonts/Helvetica-Neue-Cyr/fonts/Helvetica-Neue-Cyr/HelveticaNeueCyr-Medium.otf');
 }
 
 @font-face {
 	font-family: 'HelveticaNeueCyr';
-	src: local('HelveticaNeueCyr Bold'), url('HelveticaNeueCyr-Bold.woff2') format('woff2');
+	src: url('fonts/Helvetica-Neue-Cyr/HelveticaNeueCyr-Bold.otf');
 }
 
 @font-face {
 	font-family: 'HelveticaNeueCyr';
-	src: local('HelveticaNeueCyr Light'), url('HelveticaNeueCyr-Light.woff2') format('woff2');
+	src: url('fonts/Helvetica-Neue-Cyr/HelveticaNeueCyr-Light.otf');
 }
 
 body {
@@ -26,7 +26,10 @@ body {
 	min-height: 660px;
 	background-image: linear-gradient(180deg, #563d7e, #6E53BF);
 }
-
+.land .row1 {
+	min-height: 660px;
+	background-image: linear-gradient(180deg, #563d7e, #6E53BF);
+}
 .nonland {
 	height: 90px;
 	background-image: linear-gradient(180deg, #007ecc, #0099f7);
@@ -52,6 +55,8 @@ body {
 .menu {
 	font-size: 16px;
 	color: #fff;
+	width:600px;
+	height:70px;
 }
 
 ul {
@@ -73,6 +78,7 @@ ul {
 	font-size: 16px;
 	color: #eee;
 	float: right;
+	width:200px;
 }
 
 .account li {
@@ -141,7 +147,7 @@ ul {
 .abilities {
 	width: 100%;
 	background-image: linear-gradient(180deg, #563d7e, #6E53BF);
-	
+
 	height: 160px;
 	justify-content: center;
   flex-direction: column;
@@ -283,7 +289,7 @@ margin-bottom:15px;
 	 font-size:20px;
 }
 
-.forum-side { 
+.forum-side {
 background-color:#f9f9f9;
 border: 1px solid #d8dce9;
 height:350px;
@@ -398,4 +404,19 @@ left: 50px;
 .section-3 img:hover {
 	transform: scale(1.5);
 	-webkit-filter: brightness(80%) contrast(150%);
+}
+.ram {
+}
+.cc-frame {
+		background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, #6f5499 ,white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #6f5499 ,white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #6f5499,white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #6f5499 ,white); /* Standard syntax */
+}
+.left-ram {
+	background-color:red;
+}
+.right-ram {
+	background-color:green;
 }
